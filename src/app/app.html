@@ -5,8 +5,9 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-content>
-    <ion-list>
+  <ion-content  style="background: turquoise;">
+    <img src="../assets/imgs/card2.png" alt="">
+    <ion-list >
       <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
       </button>

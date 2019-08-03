@@ -10,6 +10,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { ProfilePage } from '../pages/profile/profile';
 import { PaymentPage } from '../pages/payment/payment';
+import { BookingPage } from '../pages/booking/booking';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { PaymentPage } from '../pages/payment/payment';
     ListPage,
     ProfilePage,
     PaymentPage,
+    BookingPage,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,7 @@ import { PaymentPage } from '../pages/payment/payment';
     ListPage,
     ProfilePage,
     PaymentPage,
+    BookingPage,
   ],
   providers: [
     StatusBar,

@@ -1,3 +1,89 @@
 page-home {
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.navi{
+width: 100%;
+height: 40%;
+display: flex;
+justify-content: space-evenly;
+
+}
+.log{
+    width: 30%;
+    height: 45%;
+   
+    
+}
+.email1{
+    width: 70%;
+    height: 55%;
+   
+    display: flex;
+   
+   
+}
+.em1{
+    width: 50%;
+    height: 90%; 
+  
+    padding: 9px;
+    justify-content: space-around;
+    font-size: 3mm;
+
+}
+.top{
+    height: 40%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(189, 179, 211, 0.703),rgba(75, 66, 99, 0.081)), url(../../assets/imgs/imagess.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.bottom{
+    height: 60%;
+    width: 100%;
+    border: solid;
+}
+.great{
+    width: 50%;
+    height: 30%;
+ 
+    display: flex;
+    
+}
+.type{
+    width: 30%;
+    height: 7%;
+  
+}
+.backpackers{
+    width: 98%;
+    height: 45%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-top:  10px;
+    padding: 5px;
+    
+    
+}
+.offer1{
+   
+    width: 50%;
+    height: 100%;
+    
+    margin: 5px
+}
 
 }
