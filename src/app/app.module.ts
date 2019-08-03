@@ -11,6 +11,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { ProfilePage } from '../pages/profile/profile';
 import { PaymentPage } from '../pages/payment/payment';
 import { BookingPage } from '../pages/booking/booking';
+import { ViewroomsPage } from '../pages/viewrooms/viewrooms';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { BookingPage } from '../pages/booking/booking';
     ProfilePage,
     PaymentPage,
     BookingPage,
+    ViewroomsPage,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,7 @@ import { BookingPage } from '../pages/booking/booking';
     ProfilePage,
     PaymentPage,
     BookingPage,
+    ViewroomsPage,
   ],
   providers: [
     StatusBar,

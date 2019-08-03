@@ -1,0 +1,92 @@
+page-viewrooms {
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    border: solid;
+}
+.roomdetails{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    border:solid;
+}
+.icons{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+    padding: 3px;
+}
+.about{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    border: solid;
+}
+.price{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    border: solid;
+}
+.Roomtyp{
+     width: 100%;
+     height: 50%;
+     border: solid;
+   
+     font-size: 6mm;
+}
+.roomtyp2{
+    width: 100%;
+     height: 50%;
+     border: solid;
+     display: flex;
+    
+}
+.admindetails{
+    width: 50%;
+    height: 100%;
+    border: solid;
+}
+.propic{
+    width: 50%;
+    height: 100%;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.imag{
+    border: solid;
+    border-radius: 50%;
+    width: 40%;
+    height: 150%;
+    
+}
+.icons1{
+    width: 20%;
+    height: 80%;
+    border: solid;
+}
+.pric{
+    width: 50%;
+    height: 80%;
+    border: solid;
+}
+.btn{
+    width: 90%;
+    height: 80%;
+   background-color: seashell;
+ color: brown;
+ border-radius: 15px
+}
+}
