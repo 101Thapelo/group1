@@ -14,3 +14,22 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.container1 {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.808)), url('../assets/imgs/durban.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    .thumb {
+        height: 25vh;
+        width: 25vh;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        object-fit: cover
+    }
+}

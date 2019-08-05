@@ -1,13 +1,19 @@
-<ion-menu [content]="content" type="overlay">
-  <ion-header>
-    <ion-toolbar>
-      <ion-title>Menu</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-menu  [content]="content" type="overlay">
+ 
 
-  <ion-content  style="background: turquoise;">
-    <img src="../assets/imgs/card2.png" alt="">
-    <ion-list >
+  <ion-content class="container1">
+    <div class="profile" padding>
+     <img src="../assets/imgs/team-avatar.jpg" class="thumb"> 
+     <div class="title" style="color: seashell">
+       <h1>Username</h1>
+       <p>Email Address</p>
+       <p>Contact</p>
+       <p>Bio</p>
+      </div>
+    </div>
+    
+    
+    <ion-list style="background-color: transparent;color: seashell">
       <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
       </button>
